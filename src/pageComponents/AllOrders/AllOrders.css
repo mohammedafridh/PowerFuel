@@ -1,0 +1,62 @@
+.deliveries{
+  margin-top: 4rem;
+}
+
+.deliveryImage{
+    width: 100%;
+    background-image: url('https://media.istockphoto.com/id/915487000/photo/gas-tank-goes-on-highway.jpg?s=612x612&w=0&k=20&c=eAstkzHQ8RcRuQT7-KBJS2KX9FLYLQAhbnvHmVP0Djc=');
+    background-size: 100% 18.5rem;
+    background-repeat: no-repeat;
+    height: 18.5rem;
+    object-fit: cover;
+}
+
+.orders{
+  margin-top: 4rem;
+}
+
+.orderImage{
+        width: 100%;
+    background-image: url('https://uploads-ssl.webflow.com/5cd1ec61019182459d973668/60882f228d091a6e022c165d_Inside%20Image%2001.png');
+    background-size: 100% 18.5rem;
+    background-repeat: no-repeat;
+    height: 18.5rem;
+    object-fit: cover;
+}
+
+.allOrders{
+    margin: 2rem auto;
+    width: 75rem;
+    margin-top: 4rem;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    padding: 1.5rem;
+  }
+  
+  .allOrdersData{
+    overflow-x: auto;
+    overflow-y: auto;
+    width: 73rem;
+    max-height: 15rem;
+    margin: 1rem auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    width: auto;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+
+  .actionsRow{
+    display: flex;
+    gap: 1rem;
+
+  }

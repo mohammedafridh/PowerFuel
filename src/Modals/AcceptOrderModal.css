@@ -1,0 +1,52 @@
+.addUserForm{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0rem 2rem 0rem;
+    margin: 1rem auto;
+    width: 95%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 3px 3px 6px 5px #ccc; */
+    border-radius: 10px;
+    flex: 1;
+}
+
+.addUserForm>h3{
+    font-weight: bold;
+}
+
+.addUserForm>div{
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    width: 100%;
+}
+
+.userInput{
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+}
+
+.addUserForm>button{
+    width: 8rem;
+    height: 2.5rem;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: var(--buttonBg);
+    transition: all 100ms ease-out;
+    margin-top: 1rem;
+}
+

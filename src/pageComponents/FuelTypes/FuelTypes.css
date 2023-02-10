@@ -1,0 +1,51 @@
+.allOrders{
+    margin: 2rem auto;
+    width: 75rem;
+    margin-top: 4rem;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    padding: 1.5rem;
+  }
+
+  .fuelHeaders{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .addFuelBtn{
+    padding: 12px 15px;
+    color: white;
+    background-color: #093C42;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+  }
+  
+  .allOrdersData{
+    overflow-x: auto;
+    overflow-y: auto;
+    width: 73rem;
+    max-height: 15rem;
+    margin: 1rem auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    width: auto;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+
+  .actionsRow{
+    display: flex;
+    gap: 1rem;
+
+  }

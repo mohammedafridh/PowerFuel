@@ -1,0 +1,43 @@
+.allFillingStationTable{
+  margin: 2rem auto;
+  width: 70rem;
+  margin-top: 7rem;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  padding: 1.5rem;
+}
+
+.stationImage{
+      width: 100%;
+    background-image: url('https://media.istockphoto.com/id/1329937925/photo/modern-service-station-in-a-sunny-day.jpg?s=612x612&w=0&k=20&c=yMKet9iVRis4l9UMSXVDhWe6_Zmof-DlzqXgE8Z5viw=');
+    background-size: 100% 18.5rem;
+    background-repeat: no-repeat;
+    height: 18.5rem;
+    object-fit: cover;
+}
+
+.allFillingStationData{
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 70rem;
+  max-height: 15rem;
+  margin: 1rem auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  width: auto;
+}
+
+.btnTd{
+  display: flex;
+  gap: 0.5rem;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}

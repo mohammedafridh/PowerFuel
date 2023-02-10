@@ -1,0 +1,31 @@
+.fuelStock{
+    padding: 3rem 0 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 2px solid;
+}
+
+.fuelStock>span{
+    color: rgb(20, 72, 131);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.fuelStock>h1{
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.fuelStock>button{
+    padding: 10px;
+    color: white;
+    background-color:#FF5733;;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 10rem;
+    align-self: center;
+    outline: none;
+    border: none;
+}

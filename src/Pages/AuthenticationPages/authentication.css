@@ -1,0 +1,61 @@
+.login{
+    display: grid;
+    grid-template-columns: 55rem auto;
+    background-color: var(--cardColor);
+}
+
+.authImage img{
+    height: 98vh;
+    width: 55rem;
+    object-fit: cover;
+}
+
+.authForm{
+    margin: 1rem auto;
+}
+
+.loginForm{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 2rem;
+    /* box-shadow: 3px 3px 5px 6px #ccc; */
+    border-radius: 5px;
+    margin-top: 8rem;
+}
+
+.regText{
+    font-size: 14px;
+}
+
+.authInput{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.loginInput{
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    border-radius: 8px;
+    padding: 10px;
+    flex: 1;
+}
+
+.btn{
+    margin-top: 2rem;
+    padding: 5px;
+    width: 7rem;
+    font-size: 18px;
+}
+
+.errorText {
+    color: red;
+    text-align: left;
+    font-size: 10px;
+}

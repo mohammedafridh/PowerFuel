@@ -1,0 +1,148 @@
+.header{
+    width: 100%;
+    background-color: white ;
+    color: black;
+    display:flex;
+    align-items: center;
+    padding: 0px 11.5rem 0px 0.1rem;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    height: 4rem;
+    z-index: 2;
+    font-family: 'Raleway'!important;
+    font-weight: bold !important;
+}
+
+.logo img{
+    position: relative;
+    width: 4rem;
+}
+
+.header ul{
+    display: flex;
+    position: relative;
+    top: 0.5rem;
+    left: 0rem;
+}
+
+.header li{
+    margin-left: 2rem;
+    list-style: none;
+    position: relative;
+}
+
+
+.title{
+    font-size: 25px;
+    color: black;
+    position: relative;
+    left: 2rem;
+    top: 0.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.title>img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 0.3rem;
+}
+
+.titleSub{
+    color: #EF030E;
+}
+
+.header a{
+    text-decoration: none;
+    color: black ;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header a.active{
+    color: rgb(202, 247, 247);
+}
+
+.header a:hover{
+    color: #EF030E;
+    transition: all 0.38s ease;
+    transform: translateX(10px);
+}
+
+.signOut{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 6px;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    
+}
+
+/* .icon{
+    position: relative;
+    top: -0.1rem;
+    color: #FF5733;
+} */
+
+.downArrow{
+    margin-left: 5px;
+    color: #FF5733;
+}
+
+.dropDown{
+    display: none;
+    
+}
+
+.header ul li:hover .dropDown{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: white;
+    padding: 5px;
+    min-width: 125px;
+    
+}
+
+.header ul li:hover .dropDown ul{
+    display: block;
+    margin: 10px;
+    position: relative;
+    
+}
+
+.header ul li:hover .dropDown ul li{
+    width: 100px;
+    padding: 10px 0;
+   position: relative;
+   left: -60px;
+   color: black;
+   z-index: 2;
+}
+
+/* .dropContainer{
+    background-color: white !important;
+    color: black !important;
+    width: 10rem;
+    border: none !important;
+}
+
+.dropMenu{
+    width: 20% !important;
+    background-color: rgb(0,0,0,0.5) !important;
+}
+
+.drop a{
+    color: white !important;
+}
+
+.drop a:hover{
+    color: orangered !important;
+}
+ */
