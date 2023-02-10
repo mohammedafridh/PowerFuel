@@ -20,9 +20,10 @@ const Homepage = () => {
           </>
           :
           <>
-            <FuelPrices />
+            {/* <FuelPrices />
             <RequestFuel />
-            <InComingOrders />
+            <InComingOrders /> */}
+            <Home />
           </>
       }
     </Layout>
